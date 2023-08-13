@@ -31,8 +31,8 @@ const Header = () => {
       <nav className="h-full px-4 max-w-container mx-auto relative">
         <Flex className="flex items-center justify-between h-full">
           <Link to="/">
-            <div>
-              <Image className="w-20 object-cover" imgSrc={logo} />
+            <div className="font-black">
+             JAGUN-MART
             </div>
           </Link>
           <div>
@@ -107,7 +107,7 @@ const Header = () => {
                           className="text-sm flex flex-col gap-1"
                         >
                           <li className="headerSedenavLi">New Arrivals</li>
-                          <li className="headerSedenavLi">Gudgets</li>
+                          <li className="headerSedenavLi">Gdgets</li>
                           <li className="headerSedenavLi">Accessories</li>
                           <li className="headerSedenavLi">Electronics</li>
                           <li className="headerSedenavLi">Others</li>
